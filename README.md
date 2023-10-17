@@ -1,7 +1,8 @@
 # Some cracks
 ## If some files required for permission to download in particlar pdfs you can just open the console and write the following code.
 Actully this code making screenshots and add them up using basic for loop. Change the name of the file you extracting inside the function ```pdf.save```.
-
+**Another thing to note that you have to load all the pages in the pdf. Why? Because I already said that this process is nothing but chapturing the screenshots and add them up making a pdf so you have to load all the pages for successfully making a good pdf.**
+Thanks.
 ```js
 let jspdf = document.createElement( "script" );
 jspdf.onload = function () {
