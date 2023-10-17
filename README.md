@@ -1,5 +1,6 @@
-# Myslef
-Some cracks
+# Some cracks
+## If some files required for permission to download in particlar pdfs you can just open the console and write the following code.
+Actully this code making screenshots and add them up using basic for loop. Change the name of the file you extracting inside the function ```pdf.save```.
 
 ```js
 let jspdf = document.createElement( "script" );
@@ -17,7 +18,7 @@ canvasElement.width = img.width;
 canvasElement.height = img.height;
 con.drawImage(img, 0, 0,img.width, img.height);
 let imgData = canvasElement.toDataURL( "image/jpeg" , 1.0);
-pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
+pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297); // A4 size: 210mmx297mm
 pdf.addPage();
 }
 pdf.save( "All You Need to know About Play.pdf" );
